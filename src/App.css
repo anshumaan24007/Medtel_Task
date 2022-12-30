@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.App{
+background: #E8E7EC 0% 0% no-repeat padding-box;
+opacity: 1;
+height: 100%;
+width: 100%;
+padding: 68px 0px 68px 0px;
+}
+.mainContainer{
+height: 100%;
+width: 2348px;
+background: #F7F8FA 0% 0% no-repeat padding-box;
+box-shadow: 0px -10px 30px #00000029;
+border-radius: 50px;
+opacity: 1;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+.dashBoardHeader{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 164px 100px 144px;
+}
+.brandLogoContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+.profilePictureContainer{
+  justify-content: space-between;
+  display: flex;
+  width: auto;
+}
+.profilePicture{
+top: 168px;
+left: 210px;
+width: 268px;
+height: 268px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.brandLogo{
+width: 325px;
+height: 197px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.contactAddress{
+width: 751px;
+height: 81px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 28px/42px Poppins;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: right;
+font: normal normal normal 28px/42px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.patientDetails{
+  font-family: Poppins;
+  padding-left: 50px;
+  font-weight: 500;
+}
+.patientSubDetails{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 27px;
+  font-family: Poppins;
+  min-width: 700px;
+}
+.patientName{
+  font-size: 50px;
+}
+.blueHeader{
+  color: #098FC9;
+}
+
+.spaceBetween{
+  padding: 4% 4% 4% 0%;
+}
+.subHeader{
+  top: 537px;
+  left: 66px;
+  height: 110px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #00000026;
+  opacity: 1;
+}
+.dropIconSVG{
+width: 100px;
+height: 69px;
+/* UI Properties */
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+.lipidProfile{
+width: 330px;
+height: 81px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal medium 58px/50px Poppins;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal medium 58px/50px Poppins;
+font-family: Poppins;
+letter-spacing: 0px;
+color: #098FC9;
+opacity: 1;
+font-size: 58px;
+position: relative;
+}
+.subHeaderContent{
+  display: flex;
+  position: relative;
+  top: 20px;
+  left:144px;
+}
+.notepadData{
+height: 234px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 10px #00000029;
+opacity: 1;
+margin: 60px 144px 55px 144px;
+}
+.notePadDetails{
+left: 407px;
+height: 148px;
+font: var(--unnamed-font-style-normal) normal 600 30px/37px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal 600 30px/37px Montserrat;
+font-family: Montserrat;
+letter-spacing: 0px;
+color: #206AA3;
+opacity: 1;
+font-size: 30px;
+max-width: 1739px;
+}
+.notePadLogo{
+  margin-right: 40px;
+}
+.notepadInnerContainer{
+  display: flex;
+  padding: 43px;
+}
+.smallCharts{
+  padding-bottom: 884px;
+}
+.footerInnerDiv{
+  width: 2348px;
+  height: 230px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #00000026;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 27px 0px 27px 144px;
+}
+.footerHeading{
+  width: 87px;
+    height: 47px;
+    font: var(--unnamed-font-style-normal) normal 600 33px/50px Poppins;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 600 33px/50px Poppins;
+    letter-spacing: 0px;
+    color: #858585;
+    opacity: 1;
+}
+.footerText{
+  width: 100%;
+  height: 100%;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/var(--unnamed-line-spacing-30) Poppins;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #858585;
+  opacity: 1;
+  display: grid;
+  /* grid-auto-columns: auto auto; */
+  grid-template-columns: auto auto;
+  line-height: 19px;
+  overflow-wrap: break-word;
+  position: relative;
+  left: -40px;
+}
+.dashBoardFooter{
+  padding-bottom: 154px;
+  display: flex;
+}

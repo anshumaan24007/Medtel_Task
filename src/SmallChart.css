@@ -1,0 +1,168 @@
+.smallChartOuterContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.smallChartMainContainerRed{
+    width: 419px;
+    height: 416px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #FF0000;
+    border: 3px solid #FF0000;
+    border-radius: 20px;
+    opacity: 1;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.smallChartMainContainerGreen{
+    width: 419px;
+    height: 415px;
+    box-shadow: 0px 0px 20px var(--unnamed-color-23a602);
+    border: 3px solid var(--unnamed-color-23a602);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #23A602;
+    border: 3px solid #23A602;
+    border-radius: 20px;
+    opacity: 1;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.header{
+width: 100%;
+height: 37px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/37px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal bold 30px/37px Montserrat;
+letter-spacing: 0px;
+color: #098FC9;
+opacity: 1;
+font-family: Montserrat;
+display: grid;
+justify-content: center;
+flex-direction: column;
+margin-top: 30px;
+}
+.header .subHeaderSC{
+    width: 100%;
+    height: 24px;
+    font: normal normal normal 20px/24px Montserrat !important;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    letter-spacing: 0px;
+    color: #C4C4C4;
+    opacity: 1;
+}
+.result{
+width: 100%;
+height: 37px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/37px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal bold 30px/37px Montserrat;
+letter-spacing: 0px;
+color: #FF0000;
+opacity: 1;
+}
+.comment{
+width: 100%;
+height: 24px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/24px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal normal 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #FF0000;
+opacity: 1;
+}
+
+.resultG{
+    width: 100%;
+    height: 37px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/37px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal bold 30px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #23A602;
+    opacity: 1;
+    }
+    .commentG{
+    width: 100%;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/24px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #23A602;
+    opacity: 1;
+    }
+.cardIcon{
+    margin-bottom: 43px;
+}
+.iconContainer{
+    display: grid;
+    justify-content: center;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.labelContainer{
+width: 139px;
+max-height: 65px;
+border-radius: 5px;
+/* background: rgb(255,173,173); */
+display: grid;
+align-content: center;
+margin-bottom: 10px;
+min-height: 51px;
+}
+.labelInfo1{
+    text-align: center;
+    color: #000000;
+    font: normal normal bold 20px/24px Montserrat;
+    opacity: 1 !important;
+}
+.labelInfo2{
+text-align: center;
+font: normal normal 600 12px/15px Montserrat;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1 !important;
+}
+.subContainer{
+    display: flex;
+    width: inherit;
+    justify-content: space-evenly;
+}
+.remarkText{
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font-family:  Montserrat;
+font-size: 25px;
+font-weight: 600;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+height: fit-content;
+margin-top: auto;
+margin-bottom: auto;
+padding: 21px;
+}
+.remarkTextContainer{
+    width: 419px;
+    height: 104px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    opacity: 1;
+    display: flex;
+}
+.parentContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;}
