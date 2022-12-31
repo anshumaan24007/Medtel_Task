@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './BigCharts.css';
 import { ReactSVG } from 'react-svg';
 import ratioIcn from './assets/Group 428.svg';
