@@ -191,3 +191,8 @@ max-width: 1739px;
   padding-bottom: 154px;
   display: flex;
 }
+.bigCharts{
+  display: flex;
+  justify-content: space-evenly;
+  width: 72%;
+}

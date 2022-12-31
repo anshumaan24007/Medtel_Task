@@ -1,0 +1,84 @@
+/* .BigChartOuterContainer{
+
+} */
+.BigChartMainContainerGreen{
+width: 624px;
+height: 416px;
+box-shadow: 0px 0px 20px var(--unnamed-color-23a602);
+border: 3px solid var(--unnamed-color-23a602);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #23A602;
+border: 3px solid #23A602;
+border-radius: 20px;
+opacity: 1;
+margin-bottom: 30px;
+}
+.headerBC{
+    width: 245px;
+    height: auto;
+    text-align: left;
+    font: normal normal bold 30px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #098FC9;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.subHeaderBC{
+    width: 179px;
+height: 25px;
+text-align: left;
+font: normal normal normal 21px/25px Montserrat;
+letter-spacing: 0px;
+color: #BCBCBC;
+opacity: 1;
+}
+.resultGBC{
+    width: fit-content;
+    height: 50px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal bold 41px/28px Montserrat;
+    letter-spacing: 0px;
+    color: #23A602;
+    opacity: 1;
+}
+.headerBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subContainerBC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.innerContainer{
+    margin: 30px;
+}
+.BigChartOuterContainer{
+    margin-bottom: 100px;
+}
+.remarkTextBC{
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font-family:  Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 21px;
+    }
+    .remarkTextContainerBC{
+        width: 624px;
+        height: 104px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 20px;
+        opacity: 1;
+        display: flex;
+    }

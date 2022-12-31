@@ -5,6 +5,7 @@ import lipidLogo from './assets/Group 329.svg';
 import notePadLogo from './assets/Group 723.svg';
 import {ReactSVG} from 'react-svg';
 import SmallChart from './SmallChart';
+import BigCharts from './BigCharts';
 
 function App(props) {
   return (
@@ -43,7 +44,10 @@ function App(props) {
             <span className="notePadDetails">{"It is a combination of blood tests that measures cholesterol and triglycerides in the blood. Total cholesterol indicates the amount of total cholesterol in the body. High density lipoprotein(HDL) also known as good cholesterol absorbs and eliminate cholesterol from the bloodstream. Low density lipoprotein(LDL) also known as bad cholesterol builds up on the walls of blood vessels causing hinderence in the blood flow."}</span>
             </div>
           </div>
-          <div className="bigCharts"></div>
+          <div className="bigCharts">
+            <BigCharts/>
+            <BigCharts/>
+          </div>
           <div className="smallCharts">
             <SmallChart
             data={props.smallChart}
